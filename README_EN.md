@@ -9,6 +9,8 @@ A collection of AI Skills built by Xuanpu repo developers for AI coding assistan
 | Skill | Description | Use Cases |
 |-------|-------------|-----------|
 | [context-offload](./skills/context-offload/) | Context Offloading - Write long outputs to files, save context space | Code generation, documentation, reports |
+| [sj-k8s](./skills/sj-k8s/) | Manage KubeSphere K8s clusters via the `sj-k8s` CLI (pods, logs, deployments) | Inspect container state, debug service issues, diagnose deploys |
+| [sj-cicd](./skills/sj-cicd/) | Drive Jenkins CI/CD via the `sj-cicd` CLI (build, deploy, logs) | Trigger builds, check status/logs, abort builds |
 
 ## Core Concept: Context Offloading
 

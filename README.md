@@ -9,6 +9,8 @@
 | 技能 | 描述 | 适用场景 |
 |------|------|----------|
 | [context-offload](./skills/context-offload/) | 上下文卸载 - 将长输出写入文件，节省上下文空间 | 代码生成、文档编写、报告生成 |
+| [sj-k8s](./skills/sj-k8s/) | 通过 `sj-k8s` CLI 管理 KubeSphere K8s 集群（Pod、日志、Deployment） | 查看容器状态、排查服务异常、定位部署问题 |
+| [sj-cicd](./skills/sj-cicd/) | 通过 `sj-cicd` CLI 操作 Jenkins CI/CD（构建、部署、日志） | 触发构建、查看构建状态/日志、停止构建 |
 
 ## 核心概念：上下文卸载 (Context Offloading)
 
