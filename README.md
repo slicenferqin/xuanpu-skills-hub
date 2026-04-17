@@ -1,8 +1,8 @@
-# My Skills
+# Xuanpu Skills Hub
 
-> AI 技能集合 - 让 AI 助手更强大
+> Xuanpu 开发者自研 AI 技能集合 - 让 AI 助手更强大
 
-这是一个开源的 AI 技能（Skills）集合，适用于支持 Skills 机制的 AI 编程助手，如 Claude Code、OpenCode 等。
+这是 Xuanpu 仓库开发者自研的 AI 技能（Skills）集合，适用于支持 Skills 机制的 AI 编程助手，如 Claude Code、OpenCode 等，也可作为自定义 Skills Hub 接入 Xuanpu。
 
 ## 技能列表
 
@@ -59,12 +59,12 @@ LLM 的上下文窗口是**稀缺资源**。当 AI 生成长输出时：
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/slicenferqin/my-skills.git
-cp -r my-skills/skills/context-offload ~/.claude/skills/
+git clone https://github.com/slicenferqin/xuanpu-skills-hub.git
+cp -r xuanpu-skills-hub/skills/context-offload ~/.claude/skills/
 
 # 或直接克隆单个 skill
 mkdir -p ~/.claude/skills && cd ~/.claude/skills
-git clone --depth 1 --filter=blob:none --sparse https://github.com/slicenferqin/my-skills.git temp
+git clone --depth 1 --filter=blob:none --sparse https://github.com/slicenferqin/xuanpu-skills-hub.git temp
 cd temp && git sparse-checkout set skills/context-offload
 cp -r skills/context-offload ../ && cd .. && rm -rf temp
 ```
@@ -73,7 +73,7 @@ cp -r skills/context-offload ../ && cd .. && rm -rf temp
 
 ```bash
 # 克隆到 skills 目录
-cp -r my-skills/skills/context-offload ~/.config/opencode/skills/
+cp -r xuanpu-skills-hub/skills/context-offload ~/.config/opencode/skills/
 ```
 
 ## 贡献

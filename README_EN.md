@@ -1,8 +1,8 @@
-# My Skills
+# Xuanpu Skills Hub
 
-> AI Skills Collection - Make AI Assistants More Powerful
+> Curated AI Skills from Xuanpu repo developers - Make AI Assistants More Powerful
 
-An open-source collection of AI Skills for AI coding assistants that support the Skills mechanism, such as Claude Code, OpenCode, etc.
+A collection of AI Skills built by Xuanpu repo developers for AI coding assistants that support the Skills mechanism (Claude Code, OpenCode, etc.). Can also be wired in as a custom Skills Hub for Xuanpu.
 
 ## Skills
 
@@ -59,12 +59,12 @@ With Context Offloading:
 
 ```bash
 # Clone to skills directory
-git clone https://github.com/slicenferqin/my-skills.git
-cp -r my-skills/skills/context-offload ~/.claude/skills/
+git clone https://github.com/slicenferqin/xuanpu-skills-hub.git
+cp -r xuanpu-skills-hub/skills/context-offload ~/.claude/skills/
 
 # Or clone single skill
 mkdir -p ~/.claude/skills && cd ~/.claude/skills
-git clone --depth 1 --filter=blob:none --sparse https://github.com/slicenferqin/my-skills.git temp
+git clone --depth 1 --filter=blob:none --sparse https://github.com/slicenferqin/xuanpu-skills-hub.git temp
 cd temp && git sparse-checkout set skills/context-offload
 cp -r skills/context-offload ../ && cd .. && rm -rf temp
 ```
@@ -73,7 +73,7 @@ cp -r skills/context-offload ../ && cd .. && rm -rf temp
 
 ```bash
 # Clone to skills directory
-cp -r my-skills/skills/context-offload ~/.config/opencode/skills/
+cp -r xuanpu-skills-hub/skills/context-offload ~/.config/opencode/skills/
 ```
 
 ## Contributing
