@@ -12,6 +12,7 @@ A collection of AI Skills built by Xuanpu repo developers for AI coding assistan
 | [sj-k8s](./skills/sj-k8s/) | Manage KubeSphere K8s clusters via the `sj-k8s` CLI (pods, logs, deployments) | Inspect container state, debug service issues, diagnose deploys |
 | [sj-cicd](./skills/sj-cicd/) | Drive Jenkins CI/CD via the `sj-cicd` CLI (build, deploy, logs) | Trigger builds, check status/logs, abort builds |
 | [mijia](./skills/mijia/) | Control Xiaomi / Mijia smart home devices via the `mijiaAPI` CLI (power, brightness, color temp, scenes, consumables) | Toggle lamps / plugs / AC, query device state, run scenes, route natural language through Xiao Ai speakers |
+| [database-mysql](./skills/database-mysql/) | Connect to MySQL via PyMySQL, run queries and explore schema, with auto read/write to a `./database-memory/` cache | Inspect schema, run SQL to investigate data, onboard a new database |
 
 ## Core Concept: Context Offloading
 
